@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.GitHubUserApp.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/light_dark</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/logo_github</item>
+        <item name="postSplashScreenTheme">@style/Theme.GitHubUserApp</item>
+    </style>
+</resources>

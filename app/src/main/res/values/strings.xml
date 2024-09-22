@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">GitHubUserApp</string>
+    <string name="searchbar_hint">Search</string>
+    <string name="username">Username</string>
+    <string name="full_name">Full Name</string>
+    <string name="_0">0</string>
+    <string name="repository">Repository</string>
+    <string name="followers">Followers</string>
+    <string name="following">Following</string>
+    <string name="bio">Bio Here</string>
+    <string name="tab_text_1">Followers</string>
+    <string name="tab_text_2">Following</string>
+    <string name="favorites">Favorites</string>
+    <string name="settings">Settings</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="desc_photo">User Photo</string>
+    <string name="desc_favorite">Favorite Button</string>
+    <string name="title_setting">Setting</string>
+    <string name="activity_favorite">Favorites</string>
+    <string name="activity_detail">Details</string>
+</resources>

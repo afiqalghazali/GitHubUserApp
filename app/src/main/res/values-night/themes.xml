@@ -1,0 +1,22 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Base.Theme.GitHubUserApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/light_dark</item>
+        <item name="colorSecondary">@color/white</item>
+        <item name="colorAccent">@color/pink</item>
+        <item name="colorTertiary">@color/light_pink</item>
+
+        <item name="actionOverflowButtonStyle">@style/ThreeDot</item>
+        <item name="floatingActionButtonStyle">@style/Love</item>
+    </style>
+
+    <style name="Love" parent="Widget.Design.FloatingActionButton">
+        <item name="android:tint">?colorAccent</item>
+    </style>
+
+    <style name="ThreeDot" parent="Widget.AppCompat.ActionButton.Overflow">
+        <item name="android:tint">?colorSecondary</item>
+    </style>
+
+    <style name="Theme.GitHubUserApp" parent="Base.Theme.GitHubUserApp" />
+</resources>
