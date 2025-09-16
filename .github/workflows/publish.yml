@@ -40,7 +40,7 @@ jobs:
         
       # Build a Debug APK using Gradle
       - name: Build APK
-        run: ./gradlew :GitHubUserApp:assembleDebug
+        run: ./gradlew assembleDebug
 
       # Rename APK
       - name: Rename APK
