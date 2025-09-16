@@ -15,7 +15,6 @@ GITHUB_API_KEY=YOUR_GITHUB_API_KEY
 - **Detailed Profile** – View repositories, followers, and following counts.
 - **Followers & Following** – Browse a user’s connections.
 - **Favorites** – Save and manage favorite users locally.
-- **Dark/Light Theme** – Seamless theme switching for better user experience.
 
 ## 🤖 Tech Stack
 
