@@ -33,7 +33,11 @@ jobs:
       - name: Setup local.properties
         run: |
           echo "GITHUB_API_KEY=${{ secrets.GHUB_API_KEY }}" > local.properties
-
+          
+      # Change Directory
+      - name: Change working directory
+        run: cd $GITHUB_WORKSPACE
+        
       # Build a Debug APK using Gradle
       - name: Build APK
         run: ./gradlew :GitHubUserApp:assembleDebug
