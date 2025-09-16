@@ -32,7 +32,7 @@ jobs:
       # Create local.properties with GitHub API key
       - name: Setup local.properties
         run: |
-          echo "GITHUB_API_KEY=${{ secrets.GITHUB_API_KEY }}" > local.properties
+          echo "GITHUB_API_KEY=${{ secrets.GHUB_API_KEY }}" > local.properties
 
       # Build a Debug APK using Gradle
       - name: Build APK
