@@ -21,7 +21,7 @@ class FavoriteRepository private constructor(
 
     fun getUsers(): LiveData<Result<List<FavoriteEntity>>> {
         result.value = Result.Loading
-        val client = apiService.getUserByUsername(BuildConfig.API_KEY)
+        val client = apiService.getUserByUsername(BuildConfig.GITHUB_API_KEY)
         client.enqueue(object : Callback<GithubResponse> {
             override fun onResponse(
                 call: Call<GithubResponse>,

@@ -10,14 +10,14 @@ class ApiConfig {
 
     companion object {
 
-        private val API_KEY = BuildConfig.API_KEY
+        private val API_KEY = BuildConfig.GITHUB_API_KEY
         private val BASE_URL = BuildConfig.BASE_URL
 
         fun getApiService(): ApiService {
             val authInterceptor = Interceptor { chain ->
                 val req = chain.request()
                 val requestHeaders = req.newBuilder()
-                    .addHeader("Authorization", API_KEY)
+                    .addHeader("Authorization", "Bearer $API_KEY")
                     .build()
                 chain.proceed(requestHeaders)
             }
